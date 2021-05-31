@@ -1,0 +1,69 @@
+{
+  "name": "guru-js-snippets",
+  "description": "Javascript snippets created by Matheus Benites.",
+  "version": "0.0.1",
+  "displayName": "Guru JS Snippets",
+  "publisher": "guru-JS-snippets",
+  "galleryBanner": {
+    "color": "#7159c1",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benits/guru-js-snippets.git"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-ts.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets-jest.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets-jest.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-jest.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-jest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.88.0"
+  }
+}

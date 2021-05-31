@@ -1,0 +1,95 @@
+{
+  "componentFunctionalTypescript": {
+    "body": [
+      "import React from 'react';",
+      "",
+      "// import * as S from './styled';",
+      "",
+      "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props {",
+      "\t",
+      "}",
+      "",
+      "export const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} = ({}: ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props): JSX.Element => {",
+      "  return <div />;",
+      "};"
+    ],
+    "description": "Create ReactJS Functional Component Typescript",
+    "prefix": "ts-rfc"
+  },
+  "componentFunctionalTypescriptExportDefault": {
+    "body": [
+      "import React from 'react';",
+      "",
+      "// import * as S from './styled';",
+      "",
+      "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props {",
+      "\t",
+      "}",
+      "",
+      "const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} = ({}: ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props): JSX.Element => {",
+      "  return <div />;",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/};"
+    ],
+    "description": "Create ReactJS Functional Component Typescript Export Default",
+    "prefix": "ts-rfce"
+  },
+  "componentFunctionalTypescriptMemo": {
+    "body": [
+      "import React, { memo } from 'react'",
+      "",
+      "// import * as S from './styled';",
+      "",
+      "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props {",
+      "\t",
+      "}",
+      "",
+      "export const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} = memo(({}: ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props) => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "})",
+      ""
+    ],
+    "description": "Creates a React Memo Function Component with ES7 module system and TypeScript interface",
+    "prefix": "ts-rmc"
+  },
+  "componentFunctionalTypescriptMemoExportDefault": {
+    "body": [
+      "import React, { memo } from 'react'",
+      "",
+      "// import * as S from './styled';",
+      "",
+      "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props {",
+      "\t",
+      "}",
+      "",
+      "const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} = ({}: ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props) => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default memo(${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/});"
+    ],
+    "description": "Creates a React Memo Function Component with ES7 module system and TypeScript interface",
+    "prefix": "ts-rmce"
+  },
+  "interfaceExport": {
+    "body": [
+      "export interface I${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} {$0}"
+    ],
+    "prefix": "ts-expint"
+  },
+  "typeExport": {
+    "body": [
+      "export type T${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} = {$0}"
+    ],
+    "prefix": "ts-exptp"
+  }
+}
