@@ -10,9 +10,12 @@ branches:
 cache:
   yarn: true
 
-before_publish:
+before_install:
   - yarn global add vsce
 
-publish:
-  - vsce package
-  - vsce publish -p $TOKEN_VSCODE
+jobs:
+  include:
+    - stage: "publish"
+      script:
+        - vsce package
+        - vsce publish -p $TOKEN_VSCODE
