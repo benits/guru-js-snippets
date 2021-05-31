@@ -14,7 +14,7 @@
     "url": "https://github.com/benits/guru-js-snippets.git"
   },
   "engines": {
-    "vscode": "0.10.x"
+    "vscode": "^0.10.5"
   },
   "categories": [
     "Snippets"
