@@ -48,6 +48,7 @@ Para instalar uma extensão você pode executar o **Command Pallete** através d
 - TypeScript (.ts)
 - JavaScript React (.jsx)
 - TypeScript React (.tsx)
+- Jest (.tsx, .ts, .js, .jsx)
 
 ### Snippets
 
