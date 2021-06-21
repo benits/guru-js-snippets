@@ -5,10 +5,11 @@
 *** Obrigado novamente! Agora vamos rodar esse projeto incrível :D
 -->
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/rocketseat.RocketseatReactJS.svg?label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactJS)
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/rocketseat.RocketseatReactJS.svg)](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactJS)
-[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/rocketseat.RocketseatReactJS.svg)](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactJS)
-![GitHub](https://img.shields.io/github/license/rocketseat/rocketseat-vscode-reactjs-snippets.svg)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/guru-JS-snippets.guru-js-snippets.svg?label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=guru-JS-snippets.guru-js-snippets)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/guru-JS-snippets.guru-js-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=guru-JS-snippets.guru-js-snippets)
+[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/guru-JS-snippets.guru-js-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=guru-JS-snippets.guru-js-snippets)
+![GitHub](https://img.shields.io/github/license/benits/guru-js-snippets.svg)
+
 
 <!-- PROJECT LOGO -->
 <br />
@@ -54,10 +55,36 @@ Para instalar uma extensão você pode executar o **Command Pallete** através d
 
 Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada um. O **⇥** significa a tecla `TAB`.
 
+#### TypeScript
+
 |          Gatilho | Conteúdo                                                 |
 | ---------------: | -------------------------------------------------------- |
-|          `rfc →` | Cria um Componente **Functional**                        |
-| `styled-react →` | Cria um arquivo de Estilização com **Styled Components** |
+|       `ts-rfc →` | Create ReactJS **Functional Component Typescript**       |
+|      `ts-rfce →` | Create ReactJS **Functional Component Typescript Export Default** |
+|      `ts-rmc →`  | Creates a **React Memo Function Component with ES7 module system and TypeScript interface** |
+|      `ts-rmce →` | Creates a **React Memo Function Component with ES7 module system and TypeScript interface** |
+|    `ts-expint →` | Create a **Interface with export** |
+|     `ts-exptp →` | Create a **Type with export** |
+
+#### JavaScript
+
+|          Gatilho | Conteúdo                                                 |
+| ---------------: | -------------------------------------------------------- |
+|         `anfn →` | Creates an **anonymous function in ES7 syntax**          |
+|         `cmbb →` | Create a **bigger block of comment**                     |
+
+
+
+#### Console Log
+
+|          Gatilho | Conteúdo                                                 |
+| ---------------: | -------------------------------------------------------- |
+|         `anfn →` | Creates an **anonymous function in ES7 syntax**          |
+|         `cmbb →` | Create a **bigger block of comment** |
+|      `clgass →`  | Creates a **React Memo Function Component with ES7 module system and TypeScript interface** |
+|      `ts-rmce →` | Creates a **React Memo Function Component with ES7 module system and TypeScript interface** |
+|    `ts-expint →` | Create a **Interface with export** |
+|     `ts-exptp →` | Create a **Type with export** |
 
 <!-- CONTRIBUTING -->
 
