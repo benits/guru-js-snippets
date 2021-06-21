@@ -5,21 +5,20 @@
 *** Obrigado novamente! Agora vamos rodar esse projeto incrível :D
 -->
 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=guru-JS-snippets.guru-js-snippets">
+    <img src="https://raw.githubusercontent.com/benits/guru-js-snippets/main/images/guru-js.png" height="200px" alt="Logo">
+  </a>
+
+  <h1 align="center">Guru JS Snippets</h1>
+</p>
+
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/guru-JS-snippets.guru-js-snippets.svg?label=Visual%20Studio%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=guru-JS-snippets.guru-js-snippets)
 [![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/guru-JS-snippets.guru-js-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=guru-JS-snippets.guru-js-snippets)
 [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/guru-JS-snippets.guru-js-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=guru-JS-snippets.guru-js-snippets)
 ![GitHub](https://img.shields.io/github/license/benits/guru-js-snippets.svg)
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://rocketseat.com.br">
-    <img src="https://raw.githubusercontent.com/benits/guru-js-snippets/main/images/guru-js.png" alt="Logo">
-  </a>
-
-  <h3 align="center">ReactJS Snippets</h3>
-</p>
-
 <!-- TABLE OF CONTENTS -->
 
 ## Tabela de Conteúdo
@@ -73,21 +72,54 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 
 |          Gatilho | Conteúdo                                                 |
 | ---------------: | -------------------------------------------------------- |
-|         `anfn →` | Creates an **anonymous function in ES7 syntax**          |
-|         `cmbb →` | Create a **bigger block of comment**                     |
+|         `rc-anonfn →` | Creates an **anonymous function in ES7 syntax**          |
+|         `rc-cmbb →` | Create a **bigger block of comment**                     |
+|     `rc-context →` | Create React context |
+|     `rc-destruct →` | Creates and assigns a local variable using object destructing |
+|     `exp-as →` | Export as alias |
+|     `exp-def →` | Export default |
+|     `exp-def-anonfn →` | Export default function in ES7 syntax |
+|     `exp-namfn →` | Export named function in ES7 syntax |
+|     `for-in →` | Iterating over property values of iterable objects |
+|     `for-of →` | Iterating over property names of iterable objects |
+|     `for-each →` | Creates a forEach statement in ES7 syntax |
+|     `fwd-ref →` | Forward ref statement used inside component |
+|     `imp-rco →` | Import react as object |
+|     `imp-rc →` | Create syntax for import react |
+|     `imp →` | Create syntax for import |
+|     `rc-hoc →` | Create high order component |
+|     `rc-hoc-redux →` | Create high order component with redux |
+|     `imp-prop-tp →` | Create syntax for import prop-types |
+|     `imp-brw-router →` | Create syntax for import BrowserRouter |
+|     `ts-exptp →` | Create a **Type with export** |
+|     `ts-exptp →` | Create a **Type with export** |
+|     `ts-exptp →` | Create a **Type with export** |
 
+#### Style
 
+|          Gatilho | Conteúdo                                                 |
+| ---------------: | -------------------------------------------------------- |
+|       `styled-react →` | Create ReactJS Styled Components file       |
+|       `styled-comp →` | Create styled component       |
+|      `exp-styled-comp →` | Create export styled component |
+|      `exp-def-sc →`  | Create export default styled component |
 
 #### Console Log
 
 |          Gatilho | Conteúdo                                                 |
 | ---------------: | -------------------------------------------------------- |
-|         `anfn →` | Creates an **anonymous function in ES7 syntax**          |
-|         `cmbb →` | Create a **bigger block of comment** |
-|      `clgass →`  | Creates a **React Memo Function Component with ES7 module system and TypeScript interface** |
-|      `ts-rmce →` | Creates a **React Memo Function Component with ES7 module system and TypeScript interface** |
-|    `ts-expint →` | Create a **Interface with export** |
-|     `ts-exptp →` | Create a **Type with export** |
+|      `clg-ass →`  | If the specified expression is false, the message is written to the console along with a stack trace module system and TypeScript interface |
+|      `clg-cl →` | Clears the console |
+|    `clg-co →` | Writes the the number of times that count() has been invoked at the same line and with the same label |
+|     `clg-dir →` | Prints a JavaScript representation of the specified object |
+|     `clg-err →` | Displays a message in the console and also includes a stack trace from where the method was called |
+|     `clg-group →` | Groups and indents all following output by an additional level, until console.groupEnd() is called. |
+|     `clg-ge →` | Closes out the corresponding console.group(). |
+|     `clg-info →` | Displays a message in the console but also displays a blue information icon along with the logged message |
+|     `clg-warn →` | Displays a message in the console but also displays a yellow warning icon along with the logged message |
+|     `clg →` | Displays a message in the console |
+|     `clg-block →` | Create a console log block |
+|     `clg-obj →` | Logs property with name |
 
 <!-- CONTRIBUTING -->
 

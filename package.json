@@ -1,13 +1,14 @@
 {
   "name": "guru-js-snippets",
-  "description": "Javascript snippets created by Matheus Benites.",
-  "version": "0.0.2",
+  "description": "Javascript snippets created by Matheus Benites",
+  "version": "0.1.0",
   "displayName": "Guru JS Snippets",
   "publisher": "guru-JS-snippets",
   "galleryBanner": {
     "color": "#7159c1",
     "theme": "dark"
   },
+  "icon": "images/guru-js.png",
   "license": "MIT",
   "repository": {
     "type": "git",

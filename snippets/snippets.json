@@ -6,7 +6,7 @@
       "}"
     ],
     "description": "Creates an anonymous function in ES7 syntax",
-    "prefix": "anfn"
+    "prefix": "rc-anonfn"
   },
   "Comment big block": {
     "body": [
@@ -17,52 +17,52 @@
       "*/"
     ],
     "description": "Create a bigger block of comment",
-    "prefix": "cmbb"
+    "prefix": "rc-cmbb"
   },
   "Console Assert": {
     "body": "console.assert(${1:expression}, ${2:object})",
     "description": "If the specified expression is false, the message is written to the console along with a stack trace",
-    "prefix": "clgass"
+    "prefix": "clg-ass"
   },
   "Console Clear": {
     "body": "console.clear()",
     "description": "Clears the console",
-    "prefix": "clgcl"
+    "prefix": "clg-cl"
   },
   "Console Count": {
     "body": "console.count(${1:label})",
     "description": "Writes the the number of times that count() has been invoked at the same line and with the same label",
-    "prefix": "clgco"
+    "prefix": "clg-co"
   },
   "Console Dir": {
     "body": "console.dir(${1:object})",
     "description": "Prints a JavaScript representation of the specified object",
-    "prefix": "clgdir"
+    "prefix": "clg-dir"
   },
   "Console Error": {
     "body": "console.error(${1:object})",
     "description": "Displays a message in the console and also includes a stack trace from where the method was called",
-    "prefix": "clgerr"
+    "prefix": "clg-err"
   },
   "Console Group": {
     "body": "console.group(\"${1:label}\")",
     "description": "Groups and indents all following output by an additional level, until console.groupEnd() is called.",
-    "prefix": "clggr"
+    "prefix": "clg-group"
   },
   "Console GroupEnd": {
     "body": "console.groupEnd()",
     "description": "Closes out the corresponding console.group().",
-    "prefix": "clgge"
+    "prefix": "clg-ge"
   },
   "Console Info": {
     "body": "console.info(${1:object})",
     "description": "Displays a message in the console but also displays a blue information icon along with the logged message",
-    "prefix": "clginf"
+    "prefix": "clg-info"
   },
   "Console Warn": {
     "body": "console.warn(${1:object})",
     "description": "Displays a message in the console but also displays a yellow warning icon along with the logged message",
-    "prefix": "clgwarn"
+    "prefix": "clg-warn"
   },
   "Console log": {
     "body": "console.log(${1:object})",
@@ -76,12 +76,12 @@
       "console.log('====================================');"
     ],
     "description": "Create a console log block",
-    "prefix": "clgb"
+    "prefix": "clg-block"
   },
   "Console log object": {
     "body": "console.log(`${1:object}`, ${1:object})",
     "description": "Logs property with name.",
-    "prefix": "clo"
+    "prefix": "clg-obj"
   },
   "Create Context": {
     "body": [
@@ -89,22 +89,22 @@
       ""
     ],
     "description": "Create React context",
-    "prefix": "rcontext"
+    "prefix": "rc-context"
   },
   "Destructing object": {
     "body": "const {${1:propertyName}} = ${2:objectToDestruct}",
     "description": "Creates and assigns a local variable using object destructing",
-    "prefix": "desob"
+    "prefix": "rc-destruct"
   },
   "Export As": {
     "body": "export { ${2:originalName} as ${3:alias} } from '${1:module}'$0",
     "description": "Export as alias",
-    "prefix": "expas"
+    "prefix": "exp-as"
   },
   "Export Default": {
     "body": "export default $1$0",
     "description": "Export default",
-    "prefix": "expdef"
+    "prefix": "exp-def"
   },
   "Export default anonymous function": {
     "body": [
@@ -114,7 +114,7 @@
       ""
     ],
     "description": "Export default function in ES7 syntax",
-    "prefix": "expdefanfn"
+    "prefix": "exp-def-anonfn"
   },
   "Export named function": {
     "body": [
@@ -124,7 +124,7 @@
       ""
     ],
     "description": "Export named function in ES7 syntax",
-    "prefix": "expnmfn"
+    "prefix": "exp-namfn"
   },
   "ForIn": {
     "body": [
@@ -134,7 +134,7 @@
       ""
     ],
     "description": "Iterating over property values of iterable objects",
-    "prefix": "fin"
+    "prefix": "for-in"
   },
   "ForOf": {
     "body": [
@@ -144,7 +144,7 @@
       ""
     ],
     "description": "Iterating over property names of iterable objects",
-    "prefix": "fof"
+    "prefix": "for-of"
   },
   "Foreach": {
     "body": [
@@ -154,7 +154,7 @@
       ""
     ],
     "description": "Creates a forEach statement in ES7 syntax",
-    "prefix": "fre"
+    "prefix": "for-each"
   },
   "ForwardRef": {
     "body": [
@@ -162,14 +162,14 @@
       ""
     ],
     "description": "Forward ref statement used inside component",
-    "prefix": "fref"
+    "prefix": "fwd-ref"
   },
   "React import as object": {
     "body": [
       "import * as React from 'react';"
     ],
     "description": "Import react as object",
-    "prefix": "imro"
+    "prefix": "imp-rco"
   },
   "Styled component": {
     "body": [
@@ -178,7 +178,7 @@
       "`"
     ],
     "description": "Create styled component",
-    "prefix": "styc"
+    "prefix": "styled-comp"
   },
   "Styled component export ": {
     "body": [
@@ -187,7 +187,7 @@
       "`"
     ],
     "description": "Create export styled component",
-    "prefix": "estyc"
+    "prefix": "exp-styled-comp"
   },
   "Styled component export default ": {
     "body": [
@@ -196,7 +196,7 @@
       "`"
     ],
     "description": "Create export default styled component",
-    "prefix": "edstyc"
+    "prefix": "exp-def-sc"
   },
   "Styled component file": {
     "body": [
@@ -209,32 +209,6 @@
     ],
     "description": "Create ReactJS Styled Components file",
     "prefix": "styled-react"
-  },
-  "getDerivedStateFromProps": {
-    "body": [
-      "static getDerivedStateFromProps(props, state) {",
-      "\t${1}",
-      "}"
-    ],
-    "description": "Invoked right before calling the render method, both on the initial mount and on subsequent updates.",
-    "prefix": "gdsfp"
-  },
-  "getSnapshotBeforeUpdate": {
-    "body": [
-      "getSnapshotBeforeUpdate = (prevProps, prevState) => {",
-      "\t$0",
-      "}",
-      ""
-    ],
-    "description": "Called right before mutations are made (e.g. before the DOM is updated)",
-    "prefix": "gsbu"
-  },
-  "graphQLForComponent": {
-    "body": [
-      "import { compose, graphql } from 'react-apollo'",
-      ""
-    ],
-    "prefix": "graphql"
   },
   "hocComponent": {
     "body": [
@@ -251,7 +225,8 @@
       "}",
       ""
     ],
-    "prefix": "hoc"
+    "description": "Create high order component",
+    "prefix": "rc-hoc"
   },
   "hocComponentWithRedux": {
     "body": [
@@ -279,10 +254,12 @@
       "export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)(${1:hocComponentName}(WrapperComponent))",
       ""
     ],
-    "prefix": "hocredux"
+    "description": "Create high order component with redux",
+    "prefix": "rc-hoc-redux"
   },
   "import": {
     "body": "import ${2:moduleName} from '${1:module}'$0",
+    "description": "Create syntax for import",
     "prefix": "imp"
   },
   "import PropTypes": {
@@ -290,21 +267,24 @@
       "import PropTypes from 'prop-types'",
       ""
     ],
-    "prefix": "impt"
+    "description": "Create syntax for import prop-types",
+    "prefix": "imp-prop-tp"
   },
   "import React": {
     "body": [
       "import React from 'react'",
       ""
     ],
-    "prefix": "imr"
+    "description": "Create syntax for import react",
+    "prefix": "imp-rc"
   },
   "import React Browser Router": {
     "body": [
       "import { BrowserRouter as Router } from 'react-router-dom'",
       ""
     ],
-    "prefix": "imbr"
+    "description": "Create syntax for import BrowserRouter",
+    "prefix": "imp-brw-router"
   },
   "import React Browser Router - Link": {
     "body": [
