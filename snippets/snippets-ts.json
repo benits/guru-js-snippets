@@ -84,12 +84,14 @@
     "body": [
       "export interface I${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} {$0}"
     ],
+    "description": "Create a interface with export",
     "prefix": "ts-expint"
   },
   "typeExport": {
     "body": [
       "export type T${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} = {$0}"
     ],
+    "description": "Create a type with export",
     "prefix": "ts-exptp"
   }
 }
