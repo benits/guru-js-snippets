@@ -10,11 +10,14 @@
 [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/guru-JS-snippets.guru-js-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=guru-JS-snippets.guru-js-snippets)
 ![GitHub](https://img.shields.io/github/license/benits/guru-js-snippets.svg)
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Guru Javascript Snippets</h3>
+  <a href="https://rocketseat.com.br">
+    <img src="https://raw.githubusercontent.com/benits/guru-js-snippets/main/images/guru-js.png" alt="Logo">
+  </a>
+
+  <h3 align="center">ReactJS Snippets</h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
